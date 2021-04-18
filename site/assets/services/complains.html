@@ -1,0 +1,37 @@
+---
+layout: page
+title: Mahallah Complains
+---
+<p>We are extremely sorry that something went wrong in one of our dorms, here you can tell us more about the issue and we'll make sure it gets fixed as soon as possible.</p>
+
+<form action="https://formspree.io/{{site.email}}" method="POST">
+    
+    <div class="form-group row">
+        <div class="col-md-7">
+            Full Name: <input class="form-control" type="text" name="Name" required><br>
+        </div>
+        <div class="col-md-7">
+            Student ID: <input class="form-control" type="text" name="Student ID" required><br>
+        </div>
+        <div class="col-md-7">
+            Dorm: <select name="Dorm" class="form-control" required>
+                    <option value="Assyria">Assyria</option>
+                    <option value="Babylon">Babylon</option>
+                    <option value="Canaan">Canaan</option>
+                    <option value="Lapita">Lapita</option>
+                    <option value="Maya">Maya</option>
+                    <option value="Nanda">Nanda</option>
+        </select><br>
+        </div>
+	   <div class="col-md-7">
+            Phone Number: <input class="form-control" type="text" name="Phone number" required><br>
+        </div>
+        <div class="col-md-7">
+            Please describe your issue: <textarea rows="8" class="form-control mb-3 " name="Issue"required></textarea>
+        </div>
+    </div>
+    
+    <input class="btn btn-success" type="submit" value="Submit Complain">
+</form>
+<br>
+<p>If you have any issues that are not regarding our Dorms please <a href="{{ site.baseurl }}/contact" title="contact">Contact us.</a> </p>

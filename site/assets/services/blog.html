@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+<div class="section-title">	
+        <h2><span>{{ page.title }}</span></h2>	
+ </div>
+ 
+<div class="row listfeaturedtag">
+	{% for post in site.posts %}
+		{% if post.blog == true %}
+			{% include featuredbox.html %}
+		{% endif %}
+	{% endfor %}
+</div>

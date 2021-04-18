@@ -1,0 +1,47 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: AHR University
+email: abubakaryagob@gmail.com
+name: AHR University
+description: Education Start up
+baseurl: 
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  ahr-university
+
+
+authors:
+  blacksuan19:
+    name: Abubakar Yagoub
+    display_name: Abubakar Yagoub
+    gravatar: 61064d1b87b8601d5a5b621ac1e83443
+    email: Abubakaryagob@gmail.com
+    github: https://github.com/blacksuan19
+    description: "some guy who codes in bash , loves, works on and uses Manjaro KDE  and not the biggest fan of web development for some reason"
+
+  hannan:
+    name: Alil Hannan  
+    display_name: Alil Hannan  
+    gravatar: 783c58791a0285cda601240fafbbae18
+    email: am.hanounah@gmail.com
+    github: https://github.com/hanounah
+    description: "This is Hanna, working on learning the languages of web development."
+
+  rawdah:
+    name: Rawdah  Abdelkader
+    display_name: Rawdah  Abdelkader  
+    gravatar: 9a48aa6a26c206fc2ec645f344f9b19b
+    email: rawdahsabbah97@gmail.com
+    github: https://github.com/rawdahss
+    description: "This is Rawdah, trying to learn the basics of web development. "
+
+# Build settings
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Other
+markdown: kramdown
+highlighter: rouge
